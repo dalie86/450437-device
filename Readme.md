@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Pavel Shechkov](https://up.htmlacademy.ru/htmlcss/23/user/450437).
-* Наставник: `Неизвестно`.
+* Наставник: [Nikolay Soloduhin](https://htmlacademy.ru/profile/nikolaysolodukhin).
 
 ---
 
