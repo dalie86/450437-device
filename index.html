@@ -11,9 +11,9 @@
     <nav class="main-navigation">
 
       <a class="main-header-logo">
-        <img src="img/logo(device).svg" width="164" height="36" alt="Логотип магазина техники «Device»">
+        <span class="header-logo">DEVICE</span>
       </a>
-
+      <h1 class="hidden">Интернет-магазин гаджетов "DEVICE"</h1>
       <section class="header-left-box">
         <label for="search">Поиск по сайту</label>
         <input id="search" type="text" name="search" placeholder="Поиск по сайту">
@@ -21,59 +21,86 @@
 
       <section class="header-right-box">
         <ul class="user-navigation">
-          <li class="user-login-link user-login-link-"><a href="#">Войти</a></li>
-          <li class="compare-link"><a href="#"><img src="img/compare.png" alt="Сравнить">Сравнить</a></li>
-          <li class="site-link cart-link"><a href="#"><img src="img/cart.png" alt="Корзина">Корзина</a></li>
+          <li class="user-login-link user-login-link-">
+            <a href="#">Войти</a>
+          </li>
+          <li class="compare-link">
+            <a href="#"><img src="img/compare.png" alt="Сравнить">Сравнить</a>
+          </li>
+          <li class="site-link cart-link">
+            <a href="#"><img src="img/cart.png" alt="Корзина">Корзина</a>
+          </li>
         </ul>
       </section>
-      <ul class="site-navigation">
-        <li>
-          <div class="">
-              <ul class="drop-down-menu">Каталог товаров<img src="">
-                  <li><a href="#">Виртуальная реальность</a></li>
-                  <li><a href="#">Моноподы для селфи</a></li>
-                  <li><a href="#">Экшн-камеры</a></li>
-                  <li><a href="#">Фитнес-браслеты</a></li>
-                  <li><a href="#">Умные часы</a></li>
-                  <li><a href="#">Квадрокоптеры</a></li>
-              </ul>
+      <ul class="header-site-navigation">
+      <li>
+        <a class="" href="">Каталог товаров</a>
+        <div class="">
+          <ul class="">
+              <li class="">
+                <a href="#">Виртуальная реальность</a>
+                <a href="#">Моноподы для селфи</a>
+                <a href="#">Экшн-камеры</a>
+              </li>
+              <li class="">
+                <a href="#">Фитнес-браслеты</a>
+                <a href="#">Умные часы</a>
+              </li>
+              <li class="">
+                <a href="#">Квадрокоптеры</a>
+              </li>
+            </ul>
           </div>
         </li>
-        <li class=""><a class=""  href="deliver.html">Доставка</a></li>
-        <li class=""><a class=""  href="guarantee.html">Гарантия</a></li>
-        <li class=""><a  class="" href="contacts.html">Контакты</a></li>
+        <li class="">
+          <a class=""  href="deliver.html">Доставка</a>
+        </li>
+        <li class="">
+          <a class=""  href="guarantee.html">Гарантия</a>
+        </li>
+        <li class="">
+          <a  class="" href="contacts.html">Контакты</a>
+        </li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="brands">
-      <ul class="">
-        <li class=""><img src="" alt="dji"> </li>
-        <li class=""><img src="" alt="spadgets"> </li>
-        <li class=""><img src="" alt="gopro"> </li>
-        <li class=""><img src="" alt="vive"> </li>
+    <section class="main-brands">
+      <ul class="main-brands-list">
+        <li class="main-brands-point">
+          <img src="" alt="dji">
+        </li>
+        <li class="main-brands-point">
+          <img src="" alt="spadgets">
+        </li>
+        <li class="main-brands-point">
+          <img src="" alt="gopro">
+        </li>
+        <li class="main-brands-point">
+          <img src="" alt="vive">
+        </li>
       </ul>
     </section>
 
     <article>
-      <section class="about">
-        <h2 class="about">О нас</h2>
-        <p class="main-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-          <ul class="about-bullet">
+      <section class="main-about">
+        <h2>О нас</h2>
+        <p class="main-text">Огромный выбор гаджетов не&nbsp;оставит равнодушным гика, который есть в&nbsp;каждом из&nbsp;нас.</p>
+          <ul class="about-list">
             <li class="about-bullet-point">Деловые Линии</li>
             <li class="about-bullet-point">Автотрейдинг</li>
             <li class="about-bullet-point">ЖилДорЭкспедиция</li>
-        <a href="#" class="button-yellow-substrate">Подробнее о нас</button>
+        <a href="#" class="btn main-btn">Подробнее о нас</a>
       </section>
 
       <section class="main-contacts">
         <h2>Контакты</h2>
-        <p class="main-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+        <p class="main-text">Вы&nbsp;можете забрать товар сами, заехав в&nbsp;наш офис. Заодно, вы&nbsp;сможете проверить работоспособность покупки. Всякое бывает.</p>
         <a class="main-map-contacts">
           <img src="img/main-contacts-map.jpg" alt="Адрес магазина: г. Москва, ул. Строителей, 15" width="560" height="222">
         </a>
-        <a class="btn main-btn-contacts" href="#">Напишите нам</a>
+        <a href="#" class="btn main-btn">Напишите нам</a>
       </section>
 
     </article>
@@ -81,7 +108,7 @@
 
 <footer class="footer">
   <div class="footer-top">
-    <span class="logo-footer">DEVICE</span>
+    <span class="footer-logo">DEVICE</span>
     <ul class="footer-user-menu">
       <li class="">
         <a href="#">Войти</a>
