@@ -8,58 +8,54 @@
 
 <body>
   <header class="main-header">
-    <nav class="main-navigation">
-
-      <a class="main-header-logo">
-        <span class="header-logo">DEVICE</span>
+    <div class="main-header-logo">
+      <a class="main-header-link">
+        <span class="header-logo-text">DEVICE</span>
       </a>
       <h1 class="hidden">Интернет-магазин гаджетов "DEVICE"</h1>
-      <section class="header-left-box">
-        <label for="search">Поиск по сайту</label>
-        <input id="search" type="text" name="search" placeholder="Поиск по сайту">
-      </section>
+    </div>
 
-      <section class="header-right-box">
-        <ul class="user-navigation">
-          <li class="user-login-link user-login-link-">
-            <a href="#">Войти</a>
+      <nav class="main-nav">
+        <ul class="main-nav-user">
+          <li class="main-nav-user-item">
+            <a class="main-nav-user-link main-nav-user-link_login" href="#">Войти</a>
           </li>
-          <li class="compare-link">
-            <a href="#"><img src="img/compare.png" alt="Сравнить">Сравнить</a>
+          <li class="main-nav-user-item">
+            <a class="main-nav-user-link main-nav-user-link_compare" href="#">Сравнить</a>
           </li>
-          <li class="site-link cart-link">
-            <a href="#"><img src="img/cart.png" alt="Корзина">Корзина</a>
+          <li class="main-nav-user-item">
+            <a class="main-nav-user-link main-nav-user-link_cart" href="#">Корзина</a>
           </li>
         </ul>
-      </section>
-      <ul class="header-site-navigation">
-      <li>
-        <a class="" href="">Каталог товаров</a>
-        <div class="">
-          <ul class="">
-              <li class="">
+
+      <ul class="main-nav-site">
+      <li class="main-nav-site-item">
+        <a class="main-nav-site-link main-nav-site-link_catalog" href="#">Каталог товаров</a>
+        <div class="main-nav-site-drup">
+          <ul class="main-nav-site-drup-list">
+              <li class="main-nav-site-column">
                 <a href="#">Виртуальная реальность</a>
                 <a href="#">Моноподы для селфи</a>
                 <a href="#">Экшн-камеры</a>
               </li>
-              <li class="">
+              <li class="main-nav-site-column">
                 <a href="#">Фитнес-браслеты</a>
                 <a href="#">Умные часы</a>
               </li>
-              <li class="">
+              <li class="main-nav-site-column">
                 <a href="#">Квадрокоптеры</a>
               </li>
             </ul>
           </div>
+          </li>
+        <li class="main-nav-site-item">
+          <a class="main-nav-site-link main-nav-site-link_delivery" href="#">Доставка</a>
         </li>
-        <li class="">
-          <a class=""  href="deliver.html">Доставка</a>
+        <li class="main-nav-site-item">
+          <a class="main-nav-site-link main-nav-site-link_guarantee" href="#">Гарантия</a>
         </li>
-        <li class="">
-          <a class=""  href="guarantee.html">Гарантия</a>
-        </li>
-        <li class="">
-          <a  class="" href="contacts.html">Контакты</a>
+        <li class="main-nav-site-item main-nav-site-item_contacts">
+          <a  class="main-nav-site-link main-nav-site-link_contacts" href="#">Контакты</a>
         </li>
       </ul>
     </nav>
@@ -108,28 +104,29 @@
 
 <footer class="footer">
   <div class="footer-top">
-    <span class="footer-logo">DEVICE</span>
+    <span class="footer-logo-text">DEVICE</span>
     <ul class="footer-user-menu">
-      <li class="">
-        <a href="#">Войти</a>
+      <li class="footer-user-item">
+        <a class="footer-user-link footer-user-link_login" href="#">Войти</a>
+
       </li>
-      <li class="">
+      <li class="footer-user-item">
         <a href="#">Сравнить</a>
       </li>
-      <li class="">
-        <a href="#">Корзина</a>
+      <li class="footer-user-item">
+        <a class="footer-user-link footer-user-link_cart" href="#">Корзина</a>
       </li>
     </ul>
   </div>
 
   <div class="footer-middle">
-    <p>г. Москва, ул. Строителей, 15</p>
+    <p class="footer-text">г. Москва, ул. Строителей, 15</p>
     <ul class="footer-site-menu">
-      <li class="footer-services-link">
-        <a href="#">Доставка</a>
+      <li class="footer-site-link">
+        <a class="footer-site-link footer-site-link_delivery" href="#">Доставка</a>
       </li>
       <li class="footer-services-link">
-        <a href="#">Гарантия</a>
+        <a class="footer-site-link footer-site-link_guarantee" href="#">Гарантия</a>
       </li>
       <li class="footer-services-link">
         <a href="#">Контакты</a>
