@@ -1,52 +1,71 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: DEVICE &mdash; каталог товаров</title>
+  </head>
 
-<body>
-  <header class="main-header">
-    <nav class="main-nav">
-      <a class="main-header-logo" href="index.html">
-        <img src="img/logo(device).svg" width="164" height="36" alt="Логотип магазина техники «Device»">
-      </a>
-      <section class="header-left-box">
-        <label for="search">Поиск по сайту</label>
-        <input id="search" type="text" name="search" placeholder="Поиск по сайту">
-      </section>
-      <section class="header-right-box">
-        <ul class="user-nav">
-          <li class="login-link"><img src="img/user.png" alt="Войти">Валентин Петухов</li>
-          <li class ="logout">Выйти</li>
-          <li class="compare-link"><img src="img/compare.png" alt="Сравнить"> Сравнить</li>
-          <li class="cart-link"><img src="img/cart.png" alt="Корзина"> Корзина</li>
+  <body>
+    <header class="main-header">
+      <div class="main-header-logo">
+        <a class="main-header-link" href="#">
+          <span class="header-logo-text">DEVICE</span>
+          <h1 class="hidden">Каталог товаров интернет-магазина гаджетов "DEVICE"</h1>
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul class="main-nav-user">
+          <li class="main-nav-user-item">
+            <a class="main-nav-user-link main-nav-user-link_profile" href="#">Валентин Петухов</a>
+            <a class="main-nav-user-link main-nav-user-link_logout" href="#">Выйти</a>
+          </li>
+          <li class="main-nav-user-item">
+            <a class="main-nav-user-link main-nav-user-link_compare" href="#">Сравнить</a>
+          </li>
+          <li class="main-nav-user-item">
+            <a class="main-nav-user-link main-nav-user-link_cart" href="#">Корзина</a>
+          </li>
         </ul>
-      </section>
-      <ul class="site-nav">
-        <li>
-          <div class="">
-            <ul class="drop-down-menu">Каталог товаров<img src="">
-                <li><a href="#">Виртуальная реальность</a></li>
-                <li><a href="#">Моноподы для селфи</a></li>
-                <li><a href="#">Экшн-камеры</a></li>
-                <li><a href="#">Фитнес-браслеты</a></li>
-                <li><a href="#">Умные часы</a></li>
-                <li><a href="#">Квадрокоптеры</a></li>
-            </ul>
-          </div>
-        </li>
-        <li class="login-link"><a href="#"><img src="img/user.png" alt="Войти">Войти</a></li>
-        <li class="compare-link"><a href="#"><img src="img/compare.png" alt="Сравнить">Сравнить</a></li>
-        <li class="cart-link"><a href="#"><img src="img/cart.png" alt="Корзина">Корзина</a></li>
-      </ul>
-    </nav>
-  </header>
+
+        <ul class="main-nav-site">
+          <li class="main-nav-site-item">
+            <a class="main-nav-site-link main-nav-site-link_catalog" href="#">Каталог товаров</a>
+            <div class="main-nav-site-drup">
+              <ul class="main-nav-site-drup-list">
+                <li class="main-nav-site-column">
+                  <a href="#">Виртуальная реальность</a>
+                  <a href="#">Моноподы для селфи</a>
+                  <a href="#">Экшн-камеры</a>
+                </li>
+                <li class="main-nav-site-column">
+                  <a href="#">Фитнес-браслеты</a>
+                  <a href="#">Умные часы</a>
+                </li>
+                <li class="main-nav-site-column">
+                  <a href="#">Квадрокоптеры</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="main-nav-site-item">
+            <a class="main-nav-site-link main-nav-site-link_delivery" href="#">Доставка</a>
+          </li>
+          <li class="main-nav-site-item">
+            <a class="main-nav-site-link main-nav-site-link_guarantee" href="#">Гарантия</a>
+          </li>
+          <li class="main-nav-site-item main-nav-site-item_contacts">
+            <a class="main-nav-site-link main-nav-site-link_contacts" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
   <main>
     <div class="second-nav">
-      <h1>Моноподы для селфи</h1>
-      <ul class="breadcrumb">
+      <h2>Моноподы для селфи</h2>
+      <ul class="breadcrumbs">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">Каталог товаров</a></li>
         <li>Моноподы для селфи</li>
@@ -74,57 +93,63 @@
         <li class=""><img src="" alt="vive"> </li>
       </ul>
     </section>
-    <article>
-      <section class="left-box">
-        <h2 class="about">О нас</h2>
-        <p class="main-text">Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
-        <!--> На самом деле я хз, может тут и ненужен див, если можно все разметить в ul/li. <div class="about-bulett">
-          </!-->
-          <ul class="about-bullet">
-            <li class="about-bullet-point">Деловые Линии</li>
-            <li class="about-bullet-point">Автотрейдинг</li>
-            <li class="about-bullet-point">ЖилДорЭкспедиция</li>
-            <!-->
-        </div>
-        </!-->
-        <button class="button-yellow-substrate">Подробнее о нас</button>
-      </section>
-      <section class="right-box">
-        <h2 class="contacts">Контакты</h2>
-        <p class="main-text">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-        <div class="map"><a class="map-button">Карта</a></div>
-        <button class="button-yellow-substrate">напишите нам</button>
-      </section>
-    </article>
+
   </main>
+
+
   <footer class="footer">
     <div class="footer-top">
-      <!-->Я не знаю как разметить правильно, в шапке разметил как svg/условно png, тут как текст, просто вводить еще один шрифт считаю неоправданной нагрузкой </!-->
-      <span class="logo-footer">DEVICE</span>
+      <span class="footer-logo-text">DEVICE</span>
       <ul class="footer-user-menu">
-        <li><a href="#"><img src="#" alt="Пользователь">Валентин Петухов</a></li>
-        <li class="logout"><a href="#"><img src="#" alt="Выйти">выйти</a></li>
-        <li><a href="#"><img src="#" alt="Сравнить">Сравнить</a></li>
-        <li><a href="#"><img src="#" alt="Корзина">Корзина</a></li>
+        <li class="footer-user-item">
+          <a class="footer-user-link footer-user-link_login" href="#">Войти</a>
+
+        </li>
+        <li class="footer-user-item">
+          <a href="#">Сравнить</a>
+        </li>
+        <li class="footer-user-item">
+          <a class="footer-user-link footer-user-link_cart" href="#">Корзина</a>
+        </li>
       </ul>
     </div>
+
     <div class="footer-middle">
-      <p>г. Москва, ул. Строителей, 15</p>
+      <p class="footer-text">г. Москва, ул. Строителей, 15</p>
       <ul class="footer-site-menu">
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Гарантия</a></li>
-        <li><a href="#">Контакты</a></li>
+        <li class="footer-site-item">
+          <a class="footer-site-link footer-site-link_delivery" href="#">Доставка</a>
+        </li>
+        <li class="footer-services-item">
+          <a class="footer-site-link footer-site-link_guarantee" href="#">Гарантия</a>
+        </li>
+        <li class="footer-services-item">
+          <a class="footer-site-link footer-site-link_contacts" href="#">Контакты</a>
+        </li>
       </ul>
-      <p>г. Москва, ул. Строителей, 15</p>
     </div>
-    <div class="footer-buttom">
-      <ul class="social-buttons">
-        <li><a class="social-btn-facebook" href="#">Facebook</a></li>
-        <li><a class="social-btn-instagram" href="#">Instagram</a></li>
-        <li><a class="social-btn-twitter" href="#">Twitter</a></li>
-      </ul>
-      <p class="coopyright">
-        <span class="icon">HTML Academy</span>
-      </p>
+
+    <div class="footer-phone">
+      <a href="tel:+74954959595">Тел.: +7 (495) 495-95-95</a>
     </div>
-  </footer </body> </html>
+  </div>
+
+  <div class="footer-bottom">
+    <ul class="footer-btn-social">
+      <li class="footer-btn-social-item">
+        <a class="footer-btn-social-link btn-facebook" href="#">Facebook</a>
+      </li>
+      <li class="footer-btn-social-item">
+        <a class="footer-btn-social-link btn-instagram" href="#">Instagram</a>
+      </li>
+      <li class="footer-btn-social-item">
+        <a class="footer-btn-social-link btn-twitter" href="#">Twitter</a>
+      </li>
+    </ul>
+    <div class="footer-btn-copyright">
+      <a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
+        <img src="img/logo-html.svg" alt="HTML Academy" width="27" height="35"></a>
+    </div>
+  </div>
+</footer>
+</body> </html>
